@@ -17,7 +17,6 @@ function RenderPartner({partner}) {
     )} return (
         <div/>
     );
-
 }
 
 function About(props) {
