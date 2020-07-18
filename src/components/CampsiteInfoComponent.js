@@ -33,8 +33,8 @@ class CommentForm extends Component {
     render(){
         return(
         <React.Fragment>
-            <Button outline className="fa fa-pencil" onClick={this.toggleModal}>
-                Submit Comments
+            <Button outline color="secondary" onClick={this.toggleModal}>
+                <i className="fa fa-pencil"/>Submit Comments
             </Button>
             <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                 <ModalHeader>Submit Comments</ModalHeader>
